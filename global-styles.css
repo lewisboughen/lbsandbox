@@ -3,10 +3,10 @@
    ========================================================================== */
 :root {
   /* Colors - Light Theme (Default) */
-  --bg-primary: #9bb096;
+  --bg-primary: #3a4737;
   --bg-secondary: #f8f9fa;
-  --text-primary: #2d3e2d;
-  --text-secondary: #7c7373;
+  --text-primary: #a0cda0;
+  --text-secondary: #dcbbbb;
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
   --border-color: #e2e8f0;
@@ -113,8 +113,12 @@ a {
 }
 
 a:hover {
-  color: var(--accent-hover);
+  color: #facc15;
   text-decoration: underline;
+}
+
+a:active {
+  color: #fef3c7;
 }
 
 button {
@@ -142,7 +146,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: var(--fs-xxl); }
 h2 { font-size: var(--fs-xl); }
 h3 { font-size: var(--fs-lg); }
-p { margin-bottom: var(--space-md); }
+p {
+  margin-bottom: var(--space-md);
+  color: var(--text-secondary);
+}
 
 /* The main layout wrapper */
 .container {
@@ -152,6 +159,13 @@ p { margin-bottom: var(--space-md); }
   margin-right: auto;
   padding-left: var(--space-md);
   padding-right: var(--space-md);
+}
+
+.container-center {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Screen reader utility for accessibility */
