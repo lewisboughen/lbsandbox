@@ -3,10 +3,10 @@
    ========================================================================== */
 :root {
   /* Colors - Light Theme (Default) */
-  --bg-primary: #444c42;
+  --bg-primary: #9bb096;
   --bg-secondary: #f8f9fa;
-  --text-primary: #1a1a1a;
-  --text-secondary: #4a5568;
+  --text-primary: #2d3e2d;
+  --text-secondary: #7c7373;
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
   --border-color: #e2e8f0;
