@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title">
+  <title id="title">Card image placeholder</title>
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  <rect x="80" y="80" width="640" height="340" rx="16" fill="#a0cda0"/>
+  <circle cx="250" cy="220" r="70" fill="#3a4737" opacity=".8"/>
+  <path d="m180 370 150-130 100 85 80-65 110 110H180Z" fill="#dcbbbb"/>
+  <text x="400" y="465" fill="#3a4737" font-family="sans-serif" font-size="34" text-anchor="middle">Card placeholder</text>
+</svg>
